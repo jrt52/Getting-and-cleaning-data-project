@@ -1,5 +1,6 @@
 # Getting-and-cleaning-data-project
-Instructions
+This project was created for the final assignment for Coursera's Getting and Cleaning Data Course
+Instructions were as follows
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 Review criterialess 
@@ -28,4 +29,6 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Good luck!
 
+##Explanations
+You will find annotations in the R file which help explain each step. Data was not manipulated or recalculated, aside from condensing data down into the mean per each activity per subject. The shape and layout of this data was modified through merging data files and renaming variables, and sheering the data down to only means and standard deviations of the original data set. 
 
